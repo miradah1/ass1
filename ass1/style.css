@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Barlow", sans-serif;
+}
+
+.headd{
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-bottom: 0px;
+    display: flex;
+}
+
+#sign{
+    position: relative;
+    border-radius: 10px;
+font: inherit;
+background-color: #FF9900;
+width: 160px;
+height: 49px;
+left: 905px;
+cursor: pointer;
+}
+#log{
+    position: relative;
+    border-radius: 10px;
+font: inherit;
+background-color: #ffffff;
+width: 160px;
+height: 49px;
+left: 885px;
+cursor: pointer;
+}
+
+.page1{
+    text-transform: uppercase;
+    display: flex;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.text1{
+    padding-top: 110px;
+    padding-left: 10px;
+    color: rgb(7, 7, 180);
+}
+.tit{
+    font-weight: 700;
+    font-size: 50px;
+    
+}
+p{
+    margin-bottom: 10px;
+    font-size: 23px;
+}
+
+.off{
+    position: relative;
+    left: 350px;
+    width:700px;
+}
+
+.page2{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-bottom: 200px;
+    color: white;
+    background-color: rgb(1, 1, 141);
+    border-radius: 50px 50px 0 0 ;
+    text-align: center;
+}
+.sv{
+    font-size: 33px;
+}
+.cards{
+    gap: 20px;
+    margin-left: 10px;
+    display: flex;
+    max-width: fit-content;
+    
+}
+.card1, .card2, .card3{
+    padding: 50px 70px 50px 50px ;
+    background-color: white;
+margin: 20px 30px 20px 30px;
+    color: black; 
+}
+.ctitle{
+    font-weight: 600;
+}
+
+footer{
+    list-style-type: none;
+    background-color: rgb(1, 1, 141);
+    display: flex;
+   
+    padding: 40px 40px 40px 50px;
+    gap: 30px;
+}
+.footer1{
+    
+
+}
+ul{
+    position: relative;
+    list-style-type:none;
+    gap: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+   
+}
+
+a:hover{
+    color: rgb(164, 164, 164);
+}
+
+.footer2{
+    display: flex;
+    color: white;
+    list-style-type:none;
+    gap: 60px;
+}
+footer button{
+    
+    border-radius: 10px;
+font: inherit;
+background-color: #FF9900;
+width: 160px;
+height: 49px;
+margin-left: 100px;
+cursor: pointer;
+}
